@@ -8,13 +8,11 @@ namespace Modelo.Entidades
 {
     public class IngresosCliente
     {
-        public int IngresoNetoId { get; set; }
+        public int id { get; set; }
         public string Cliente { get; set; }
         public int Rol_Pagos_Netos { get; set; }
         public string Servicios_Basicos_Netos { get; set; }
         public string Ingresos_Totales { get; set; }
-
-        public string Valor_Aprobacion { get; set; }
 
         // Relacion con Cliente
         public ICollection<Cliente> Clientes { get; set; }

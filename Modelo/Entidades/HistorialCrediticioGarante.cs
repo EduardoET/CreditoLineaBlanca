@@ -12,5 +12,6 @@ namespace Modelo.Entidades
         public int Puntaje { get; set; }
         public int DeudasActivas { get; set; }
         public int DeudasVencidas { get; set; }
+        
     }
 }

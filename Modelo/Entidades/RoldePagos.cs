@@ -8,7 +8,7 @@ namespace Modelo.Entidades
 {
     public class RoldePagos
     {
-        public int RolPagoId { get; set; }
+        public int Id { get; set; }
         public string Cliente { get; set; }
 
         public string Cargo { get; set; }

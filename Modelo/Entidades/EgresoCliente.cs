@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Modelo.Entidades
 {
-    internal class EgresoCliente
+    public class EgresoCliente
     {
         public int Id { get; set; }
         public string Cliente { get; set; }

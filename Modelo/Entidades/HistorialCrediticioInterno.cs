@@ -12,5 +12,7 @@ namespace Modelo.Entidades
         public int Puntaje { get; set; }
         public int DeudasActivas { get; set; }
         public int DeudasVencidas { get; set; }
+        // Relacion con Cliente
+        public ICollection<Cliente> Clientes { get; set; }
     }
 }
